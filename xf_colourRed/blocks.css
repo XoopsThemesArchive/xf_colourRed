@@ -1,0 +1,170 @@
+#blockleft ul {
+list-style-type:none;
+margin:0;
+padding: 10px; 
+padding-left:0;
+}
+
+#blockleft li, #mainmenu a, #usermenu a {
+display:block;
+}
+
+#blockleft li a, #mainmenu a, #usermenu a {
+font-weight:normal;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft li a:hover, #mainmenu a:hover, #usermenu a:hover {
+font-weight:bold;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft li a.submenu {
+font-weight:normal;
+color: #fc0;
+font-size: 12px;
+padding-right: 0px;
+text-decoration:none;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft span {
+font-weight:normal;
+font-size: 12px;
+text-decoration:none;
+color: #fc0;
+background: url(images/submenu.gif) no-repeat top left;
+padding-left: 17px;
+}
+
+#blockleft input {
+border :1px solid #666;
+padding: 2px;
+}
+
+div.ltitle {
+padding: 0px;
+width: 180px;
+background : #6b6b6b;
+border-top: 1px solid #fff; 
+border-left: 0px solid #fff; 
+border-bottom: 1px solid #fff;
+}
+
+div.ltitle h3 {
+color: #fff;
+font-size: 12px;
+background: url(images/onl.gif) no-repeat left center;
+padding: 5px;
+padding-left: 28px;
+}
+
+div.lblockcontent {
+color: #fff;
+padding: 10px;
+background : #900;
+margin-bottom: 15px;
+}
+
+div.lblockcontent a {
+color: #fff;
+font-weight: bold;
+}
+
+div.lblockcontent a:hover {
+color: #fc0;
+font-weight: bold;
+}
+
+div.lblockcontent b {
+color: #fc0;
+font-weight: bold;
+}
+/* end left block settings */
+
+
+
+#modulcontent h3 {
+font-size: 17px;
+font-style: normal;
+font-weight:bold;
+color: #fc0;
+}
+
+#modulcontent h3 a {
+text-decoration:none;
+color: #900;
+}
+
+#modulcontent em {
+font-size: 16px;
+font-style: normal;
+font-weight:bold;
+color: #fc0;
+}
+
+#modulcontent ul  {
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:0;
+text-align:left;
+}
+
+#modulcontent ul li ul li{
+list-style-type:none;
+margin:0;
+padding: 10px;
+padding-left:20px;
+text-align:left;
+}
+
+#modulcontent ul a {
+color: #fc0;
+text-decoration: none;
+}
+
+#modulcontent h2 {
+padding-top: 15px;
+font-size:15px;
+}
+
+#modulcontent h3 {
+padding-top: 15px;
+font-size:15px;
+color:#900;
+}
+
+#modulcontent h4 {
+padding:0px;
+margin:0;
+padding-top: 5px;
+font-size:15px;
+color:#900;
+}
+#modulcontent p {
+padding: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.centerblocktitle h3 {
+padding-top: 15px;
+font-size:15px;
+color:#900;
+}
+.centerblockcontent {
+background: url(images/centerlogobg.gif) top right no-repeat;
+}
+
+
+/* This CSS is part of a XOOPS theme from michael [aka studioC] <a href="http://xoopsfactory.com">XOOPS FACTORY</a> */
